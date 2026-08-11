@@ -1,0 +1,18 @@
+{
+  "name": "threejs-visualization",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Three.js 数据可视化学习项目（M1 入门阶段）",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "three": "^0.185.1"
+  },
+  "devDependencies": {
+    "vite": "^6.4.3"
+  }
+}
