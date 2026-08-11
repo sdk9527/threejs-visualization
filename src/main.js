@@ -50,8 +50,9 @@ controls.dampingFactor = 0.08;
 // 8. 动画循环：每一帧执行（浏览器 60 次/秒）
 function animate() {
   requestAnimationFrame(animate);
-  cube.rotation.x += 0.01; // 每帧旋转一点
-  cube.rotation.y += 0.01;
+  // cube.rotation.x += 0.01; // 每帧旋转一点
+  // cube.rotation.y += 0.01;
+  cube.rotation.z += 0.01;
   controls.update(); // 更新轨道控制（启用 damping 时必需）
   renderer.render(scene, camera);
 }
